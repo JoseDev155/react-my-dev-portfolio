@@ -4,7 +4,7 @@ import './index.css';
 import { StrictMode } from 'react';
 
 // Entry point of the application
-const root = createRoot(document.getElementById('app'));
+const root = createRoot(document.getElementById("app"));
 root.render(
   <StrictMode>
     <App />
