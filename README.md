@@ -41,6 +41,12 @@ pnpm add lucide-react tailwind-merge clsx class-variance-authority -E
 * `clsx`: Tiny utility for constructing `className` strings conditionally.
 * `class-variance-authority`: Library for creating and managing component variants (like buttons with multiple sizes or colors) in a type-safe way.
 
+Dependency to deploy in **GitHub Pages**:
+
+```bash
+pnpm add -D gh-pages -E --force
+```
+
 ## Run application (Development)
 
 ```bash
