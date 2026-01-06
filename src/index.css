@@ -19,6 +19,9 @@
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
   --animate-meteor: meteor 5s linear infinite;
 
+  /* Breakpoints */
+  --breakpoint-xs: 350px;
+
   @keyframes float {
     0%,
     100% {
@@ -87,6 +90,10 @@
     --border: 217 33% 20%;
   }
 
+  .social-button {
+    @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+  }
+
   * {
     @apply border-border;
   }
@@ -147,6 +154,10 @@
 @utility meteor {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+}
+
+@utility social-button {
+  @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
 }
 
 #root {
