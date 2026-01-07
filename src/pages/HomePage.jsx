@@ -17,6 +17,9 @@ export const HomePage = () => {
       <NavbarLayout />
 
       {/* Main Content */}
+      <main>
+        <OverviewComponent />
+      </main>
 
       {/* Footer */}
     </div>
