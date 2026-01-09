@@ -3,6 +3,7 @@ import { BackgroundComponent } from '@/components/themes/BackgroundComponent';
 import { NavbarLayout } from '@/layouts/NavbarLayout';
 import { OverviewComponent } from '@/components/sections/OverviewComponent';
 import { StackComponent } from '@/components/sections/StackComponent';
+import { EducationComponent } from '../components/sections/EducationComponent';
 
 export const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ export const HomePage = () => {
       <main>
         <OverviewComponent />
         <StackComponent />
+        <EducationComponent />
       </main>
 
       {/* Footer */}
