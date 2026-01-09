@@ -6,7 +6,7 @@ export const EducationComponent = () => {
     
       <div className="container mx-auto max-w-5xl">
         <h1 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Education
+          <span className="text-primary">Education</span>
         </h1>
         
         {/* Education Items */}
