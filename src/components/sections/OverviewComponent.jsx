@@ -12,7 +12,7 @@ export const OverviewComponent = () => {
       {/* Profile Picture */}
       <div className="w-full md:w-3/7 flex mx-14 justify-center md:justify-center z-10 animate-fade-in">
         <img 
-          className="w-38 h-38 md:w-50 md:h-50 rounded-full drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
+          className="w-38 h-38 md:w-50 md:h-50 rounded-full drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
           src={profile} 
           alt="Profile" />
       </div>
@@ -48,10 +48,11 @@ export const OverviewComponent = () => {
           <div className="flex gap-4 justify-center md:justify-start pt-2">
             
             <a 
-              className="bg-zinc-700 social-button hover:bg-zinc-700 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
+              className="bg-zinc-700 social-button hover:bg-zinc-500 drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
               href="https://github.com/JoseDev155" 
               target="_blank" 
-              aria-label="My GitHub"
+              aria-label="GitHub" 
+              title="My GitHub" 
             >
               <svg className="w-6 h-6 fill-white">
                 <use href={`${sprite}#github`} />
@@ -59,10 +60,11 @@ export const OverviewComponent = () => {
             </a>
 
             <a 
-              className="bg-blue-200 social-button hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
+              className="bg-blue-200 social-button hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
               href="https://www.linkedin.com/in/jose-ramos-dev/" 
               target="_blank" 
-              aria-label="My LinkedIn"
+              aria-label="LinkedIn" 
+              title="My LinkedIn" 
             >
               <svg className="w-6 h-6">
                 <use href={`${sprite}#linkedin`} />
