@@ -2,6 +2,7 @@ import { ThemeToggleComponent } from '@/components/themes/ThemeToggleComponent';
 import { BackgroundComponent } from '@/components/themes/BackgroundComponent';
 import { NavbarLayout } from '@/layouts/NavbarLayout';
 import { OverviewComponent } from '@/components/sections/OverviewComponent';
+import { StackComponent } from '@/components/sections/StackComponent';
 
 export const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ export const HomePage = () => {
       {/* Main Content */}
       <main>
         <OverviewComponent />
+        <StackComponent />
       </main>
 
       {/* Footer */}
