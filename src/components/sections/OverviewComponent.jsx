@@ -31,14 +31,14 @@ export const OverviewComponent = () => {
             </span>
           </h1>
           
-          <h2>
-            <span className="text-glow md:text-2xl text-primary/90 opacity-0 animate-fade-in-delay-2 block">
+          <h2 className="text-2xl md:text-xl font-semibold">
+            <span className="text-glow text-primary/90 opacity-0 animate-fade-in-delay-2 block">
               Informatic Systems Engineer
             </span>
           </h2>
           
           <p 
-            className="text-base md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"
+            className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"
           >
             Full-Stack Developer Jr and enthusiast in modern & old technologies. 
             Specializing in building web applications with Java and React.
@@ -48,7 +48,7 @@ export const OverviewComponent = () => {
           <div className="flex gap-4 justify-center md:justify-start pt-2">
             
             <a 
-              className="bg-zinc-700 social-button animate-slide-up-fade animate-delay-500 hover:bg-zinc-700 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
+              className="bg-zinc-700 social-button hover:bg-zinc-700 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
               href="https://github.com/JoseDev155" 
               target="_blank" 
               aria-label="My GitHub"
@@ -59,7 +59,7 @@ export const OverviewComponent = () => {
             </a>
 
             <a 
-              className="bg-blue-200 social-button animate-slide-up-fade animate-delay-500 hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
+              className="bg-blue-200 social-button hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.3)]" 
               href="https://www.linkedin.com/in/jose-ramos-dev/" 
               target="_blank" 
               aria-label="My LinkedIn"
