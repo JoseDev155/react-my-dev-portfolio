@@ -4,6 +4,7 @@ import { NavbarLayout } from '@/layouts/NavbarLayout';
 import { OverviewComponent } from '@/components/sections/OverviewComponent';
 import { StackComponent } from '@/components/sections/StackComponent';
 import { EducationComponent } from '../components/sections/EducationComponent';
+import { AboutComponent } from '@/components/sections/AboutComponent';
 
 export const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ export const HomePage = () => {
         <OverviewComponent />
         <StackComponent />
         <EducationComponent />
+        <AboutComponent />
       </main>
 
       {/* Footer */}
