@@ -1,13 +1,15 @@
 import sprite from '@/assets/sprite.svg?url';
-import TailwindLogo from '@/assets/icons/tailwind.svg?react';
-import GitLogo from '@/assets/icons/git.svg?react';
-import VSCodeLogo from '@/assets/icons/vscode.svg?react';
-import WindowsLogo from '@/assets/icons/windows.svg?react';
-import LinuxLogo from '@/assets/icons/linux.svg?react';
-import SpringLogo from '@/assets/icons/spring.svg?react';
-import JavaLogo from '@/assets/icons/java.svg?react';
-import PythonLogo from '@/assets/icons/python.svg?react';
-import PhpLogo from '@/assets/icons/php.svg?react';
+import TailwindLogo from '@/assets/tech/tailwind.svg?react';
+import GitLogo from '@/assets/tech/git.svg?react';
+import VSCodeLogo from '@/assets/tech/vscode.svg?react';
+import WindowsLogo from '@/assets/tech/windows.svg?react';
+import LinuxLogo from '@/assets/tech/linux.svg?react';
+import SpringLogo from '@/assets/tech/spring.svg?react';
+import JavaLogo from '@/assets/tech/java.svg?react';
+import PythonLogo from '@/assets/tech/python.svg?react';
+import PhpLogo from '@/assets/tech/php.svg?react';
+import MySQLLogo from '@/assets/tech/mysql.svg?react';
+import MongoDBLogo from '@/assets/tech/mongodb.svg?react';
 
 export const StackComponent = () => {
   return (
@@ -87,7 +89,7 @@ export const StackComponent = () => {
           </picture>
           <picture 
             className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
-            <PhpLogo className="w-10 h-10 fill-white" />
+            <PhpLogo className="w-10 h-10 fill-gray-900" />
             <span className="text-sm">PHP</span>
           </picture>
           <picture 
@@ -96,6 +98,16 @@ export const StackComponent = () => {
               <use href={`${sprite}#node`} />
             </svg>
             <span className="text-sm">Node.js</span>
+          </picture>
+          <picture 
+            className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
+            <MongoDBLogo className="w-10 h-10 fill-white" />
+            <span className="text-sm">MongoDB</span>
+          </picture>
+          <picture 
+            className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
+            <MySQLLogo className="w-10 h-10 fill-white" />
+            <span className="text-sm">MySQL</span>
           </picture>
         </div>
       </div>
@@ -120,6 +132,7 @@ export const StackComponent = () => {
           <picture 
             className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
             <VSCodeLogo className="w-10 h-10 fill-white" />
+            <span className="text-sm">VSCode</span>
           </picture>
           <picture 
             className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
