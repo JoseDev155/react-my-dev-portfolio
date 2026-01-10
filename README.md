@@ -58,3 +58,9 @@ pnpm add -D gh-pages -E --force
 ```bash
 pnpm dev
 ```
+
+## Deploy application (Production)
+
+```bash
+pnpm run deploy
+```
