@@ -5,19 +5,7 @@ import { useEffect, useState } from "react";
 
 export const BackgroundComponent = () => {
   const [meteors, setMeteors] = useState([]);
-
-  useEffect(() => {
-    generateMeteors();
-
-    const handleResize = () => {
-      generateStars();
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
+  
   const generateMeteors = () => {
     const numberOfMeteors = 4;
     const newMeteors = [];
@@ -35,6 +23,18 @@ export const BackgroundComponent = () => {
 
     setMeteors(newMeteors);
   };
+
+  useEffect(() => {
+    generateMeteors();
+    /*
+    const handleResize = () => {
+      generateStars();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);*/
+  }, []);
 
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
