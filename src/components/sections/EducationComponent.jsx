@@ -1,4 +1,4 @@
-import UnicaesLogo from '@/assets/unicaes-logo.png';
+import UnicaesLogo from '@/assets/icons/unicaes-logo.png';
 
 export const EducationComponent = () => {
   return (

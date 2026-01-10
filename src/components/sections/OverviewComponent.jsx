@@ -1,6 +1,6 @@
 import { ArrowDown } from 'lucide-react';
 import sprite from '@/assets/sprite.svg?url';
-import profile from '@/assets/avatar.png';
+import profile from '@/assets/icons/avatar.png';
 
 export const OverviewComponent = () => {
   return (
