@@ -166,3 +166,9 @@
   padding: 0;
   text-align: center;
 }
+
+/* Image proportion */
+picture, img {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
