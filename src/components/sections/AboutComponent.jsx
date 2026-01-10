@@ -40,21 +40,19 @@ export const AboutComponent = () => {
 
           {/* Image */}
           <div className="grid grid-cols-1 gap-6 p-6 order-first md:order-0">
-            <div className="p-6 card-hover">
-              
-              <div className="flex items-start justify-center md:justify-end">
-                <div className="p-3 border border-white/30 rounded-2xl bg-primary/10 hover:scale-110 transition-transform">
-                  <img 
-                    className="w-48 h-48 rounded-xl" 
-                    src={CatGif} 
-                    alt="Cat gif" title="I really love the cats ;)" />
-                </div>
-              </div>
             
+            <div className="flex items-start justify-center p-6 md:justify-end">
+              <div className="p-3 card-hover border border-white/30 rounded-2xl bg-primary/10 hover:scale-110 transition-transform">
+                <img 
+                  className="w-48 h-48 rounded-xl" 
+                  src={CatGif} 
+                  alt="Cat gif" title="I really love the cats ;)" />
+              </div>
             </div>
+          
           </div>
-
         </div>
+        
       </div>
       
     </section>
