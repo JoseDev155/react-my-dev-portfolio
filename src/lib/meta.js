@@ -1,6 +1,6 @@
 const metaDescription = 
 `Full-Stack Developer Jr and Structural Analyst enthusiast (Civil Engineering) with a passion for creating 
-efficient and scalable web applications. Dedicated to continuous learning and professional growth in the tech industry.`;
+efficient and scalable web applications.`;
 
 const metaTag = document.querySelector('meta[name="description"]');
 
