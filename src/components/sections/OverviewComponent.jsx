@@ -24,10 +24,7 @@ export const OverviewComponent = () => {
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}Jose
-            </span>
-            <span className="text-gradient opacity-0 animate-fade-in-delay-1">
-              {" "}Ramos
+              {" "}Jose{" "}Ramos
             </span>
           </h1>
           
