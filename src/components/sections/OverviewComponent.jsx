@@ -66,7 +66,7 @@ export const OverviewComponent = () => {
               aria-label="LinkedIn" 
               title="My LinkedIn" 
             >
-              <svg className="w-6 h-6">
+              <svg className="w-6 h-6 fill-white">
                 <use href={`${sprite}#linkedin`} />
               </svg>
             </a>
