@@ -5,6 +5,7 @@ import { OverviewComponent } from '@/components/sections/OverviewComponent';
 import { StackComponent } from '@/components/sections/StackComponent';
 import { EducationComponent } from '../components/sections/EducationComponent';
 import { AboutComponent } from '@/components/sections/AboutComponent';
+import { FooterComponent } from '../components/sections/FooterComponent';
 
 export const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ export const HomePage = () => {
       </main>
 
       {/* Footer */}
+      <FooterComponent />
     </div>
   );
 };
