@@ -13,7 +13,7 @@ export const AboutComponent = () => {
           <div className="space-y-6">
 
             <p className="text-muted-foreground">
-              Well, I didn't start interested in the progrmamming, I started interested in the electronic. Actually, 
+              Well, I didn't start interested in the progrmamming, I started interesting me in the electronic. Actually, 
               I'm a big fan of Arduino and I bought a kit to start learning about 
               basic ciruits, but there aren't many universities that teach electronic engineering in my 
               country. So, I decided to switch to software development.
