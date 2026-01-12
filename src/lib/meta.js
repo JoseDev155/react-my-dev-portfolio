@@ -1,3 +1,4 @@
+// Define the meta description content
 const metaDescription = 
 `Full-Stack Developer Jr and Structural Analyst enthusiast (Civil Engineering) with a passion for creating 
 efficient and scalable web applications.`;
@@ -11,4 +12,18 @@ if (metaTag) {
     newMetaTag.name = 'description';
     newMetaTag.content = metaDescription.trim();
     document.head.appendChild(newMetaTag);
+}
+
+// Define the canonical URL
+const canonicalURL = 'https://imjoseramos.dev';
+
+const canonicalLink = document.querySelector('link[rel="canonical"]');
+
+if (canonicalLink) {
+    canonicalLink.setAttribute('href', canonicalURL);
+} else {
+    const newCanonicalLink = document.createElement('link');
+    newCanonicalLink.rel = 'canonical';
+    newCanonicalLink.href = canonicalURL;
+    document.head.appendChild(newCanonicalLink);
 }
