@@ -13,20 +13,19 @@ export const AboutComponent = () => {
           <div className="space-y-6">
 
             <p className="text-muted-foreground">
-              Well, I didn't start interested in the progrmamming, I started interesting me in the electronic. Actually, 
+              Well, I didn't start interested in programming, I started beqcoming interested in electronic. Actually, 
               I'm a big fan of Arduino and I bought a kit to start learning about 
-              basic ciruits, but there aren't many universities that teach electronic engineering in my 
+              basic circuits, but there aren't many universities that teach electronic engineering in my 
               country. So, I decided to switch to software development.
             </p>
 
             <p className="text-muted-foreground">
-              I'm a big lover of cats, I have one black cat, she's very sleepyhead but all 
-              love her in the house. I'm also a big fan of coffee.
+              I'm a big lover of cats. I have a black cat who's very sleepy, but everyone 
+              in the house loves her. I'm also a big fan of coffee.
             </p>
 
             <p className="text-muted-foreground">
-              My hobbies are: go to the gym, watch movies & series, read and draw. And, 
-              In my free time, I like to learn new technologies and improve my skills as a developer in 
+              My hobbies are: going to the gym, watching movies & series, reading, and drawing. In my free time, I like to learn new technologies and improve my skills as a developer through 
               platforms like <span className="font-semibold">Udemy, Platzi, and YouTube tutorials</span>.
             </p>
 
@@ -46,7 +45,7 @@ export const AboutComponent = () => {
                 <img 
                   className="w-48 h-48 rounded-xl" 
                   src={CatGif} 
-                  alt="Cat gif" title="I really love the cats ;)" />
+                  alt="Cat gif" title="I really love cats ;)" />
               </div>
             </div>
           
