@@ -10,6 +10,7 @@ import PythonLogo from '@/assets/tech/python.svg?react';
 import PhpLogo from '@/assets/tech/php.svg?react';
 import MySQLLogo from '@/assets/tech/mysql.svg?react';
 import MongoDBLogo from '@/assets/tech/mongodb.svg?react';
+import NodeLogo from '@/assets/tech/nodejs.svg?react';
 
 export const StackComponent = () => {
   return (
@@ -94,9 +95,7 @@ export const StackComponent = () => {
           </picture>
           <picture 
             className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
-            <svg className="w-10 h-10 fill-white">
-              <use href={`${sprite}#node`} />
-            </svg>
+            <NodeLogo className="w-10 h-10 fill-white" />
             <span className="text-sm">Node.js</span>
           </picture>
           <picture 
