@@ -18,11 +18,11 @@ export const StackComponent = () => {
       id="stack" 
       className="relative min-h-screen flex flex-col items-center justify-center px-4 py-24"
     >
-      <h1 className="text-4xl font-bold mb-8">
+      <h2 className="text-4xl font-bold mb-8">
         <span className="text-primary">
           Stack & Technologies
         </span>
-      </h1>
+      </h2>
 
       {/* Frontend */}
       <div className="w-full md:w-4/7 flex flex-col items-center md:items-center justify-center py-2 z-10">

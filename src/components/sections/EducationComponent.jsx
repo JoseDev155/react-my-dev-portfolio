@@ -5,9 +5,9 @@ export const EducationComponent = () => {
     <section id="education" className="py-24 px-4 relative">
     
       <div className="container mx-auto max-w-5xl">
-        <h1 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           <span className="text-primary">Education</span>
-        </h1>
+        </h2>
         
         {/* Education Items */}
         <div className="grid grid-cols-1 gap-12 items-center">
