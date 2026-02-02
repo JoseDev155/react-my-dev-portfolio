@@ -15,19 +15,19 @@ export const FooterComponent = () => {
       <div className="flex flex-row items-center p-2 mb-12 gap-6 flex-wrap justify-center">
         <picture 
           className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
-          <svg className="w-32 h-32 fill-white">
+          <svg className="w-24 h-24 fill-white md:w-12 md:h-12">
             <use href={`${sprite}#react`} />
           </svg>
           <span className="text-lg">React</span>
         </picture>
         <picture 
           className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
-          <TailwindLogo className="w-32 h-32 fill-white" />
+          <TailwindLogo className="w-24 h-24 fill-white md:w-12 md:h-12" />
           <span className="text-lg">TailwindCSS</span>
         </picture>
         <picture 
           className="flex flex-col items-center justify-center drop-shadow-[0_0_15px_rgba(0,122,204,0.5)] animate-slide-up-fade animate-delay-500 hover:scale-110 transition-transform">
-          <PnpmLogo className="w-32 h-32 fill-white" />
+          <PnpmLogo className="w-24 h-24 fill-white md:w-12 md:h-12" />
           <span className="text-lg">Pnpm</span>
         </picture>
       </div>
