@@ -16,9 +16,9 @@ export const StackComponent = () => {
   return (
     <section 
       id="stack" 
-      className="relative min-h-screen flex flex-col items-center justify-center px-4 py-24"
+      className="relative min-h-[45vh] py-24 px-4 flex flex-col items-center justify-center"
     >
-      <h2 className="text-4xl font-bold mb-8">
+      <h2 className="text-4xl font-bold mb-12">
         <span className="text-primary">
           Stack & Technologies
         </span>

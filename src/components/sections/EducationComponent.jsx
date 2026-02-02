@@ -2,7 +2,7 @@ import UnicaesLogo from '@/assets/icons/unicaes-logo.png';
 
 export const EducationComponent = () => {
   return (
-    <section id="education" className="py-24 px-4 relative">
+    <section id="education" className="py-24 px-4 min-h-[45vh] relative">
     
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
