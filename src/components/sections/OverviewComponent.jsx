@@ -6,19 +6,19 @@ export const OverviewComponent = () => {
   return (
     <section 
       id="overview" 
-      className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-2 py-20 md:py-12"
+      className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-12 py-20 md:py-12 gap-8 md:gap-18"
     >
     
       {/* Profile Picture */}
-      <div className="w-full md:w-3/7 flex mx-14 justify-center md:justify-center z-10 animate-fade-in">
+      <div className="w-full md:w-1/3 flex justify-center z-10 animate-fade-in">
         <img 
-          className="w-38 h-38 md:w-50 md:h-50 rounded-full drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
+          className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
           src={profile} 
           alt="Profile" />
       </div>
 
       {/* Description */}
-      <div className="w-full md:w-4/7 flex flex-col items-center md:items-start md:justify-start md:-m-14 z-10">
+      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start z-10">
         <div className="space-y-6 max-w-2xl text-center md:text-left">
           
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
@@ -35,7 +35,7 @@ export const OverviewComponent = () => {
           </h2>
           
           <p 
-            className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3"
           >
             Full-Stack Developer Jr and enthusiast in modern & old technologies. 
             Specializing in building web applications with Java and React.
@@ -48,6 +48,7 @@ export const OverviewComponent = () => {
               className="bg-zinc-700 social-button hover:bg-zinc-500 drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
               href="https://github.com/JoseDev155" 
               target="_blank" 
+              rel="noopener noreferrer"
               aria-label="GitHub" 
               title="My GitHub" 
             >
@@ -57,9 +58,10 @@ export const OverviewComponent = () => {
             </a>
 
             <a 
-              className="bg-blue-200 social-button hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
+              className="bg-blue-300 social-button hover:bg-gray-200 drop-shadow-[0_0_15px_rgba(0,122,204,0.5)]" 
               href="https://www.linkedin.com/in/jose-ramos-dev/" 
               target="_blank" 
+              rel="noopener noreferrer"
               aria-label="LinkedIn" 
               title="My LinkedIn" 
             >

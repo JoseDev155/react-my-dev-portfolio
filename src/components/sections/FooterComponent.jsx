@@ -33,7 +33,7 @@ export const FooterComponent = () => {
       </div>
 
       <p className="text-sm text-muted-foreground">
-        &copy; {new Date().getFullYear()} Jose Eduardo Ramos. Almost all rights reserved.
+        &copy; {new Date().getFullYear()} Jose Ramos. Almost all rights reserved.
       </p>
       <a
         href="#overview"

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/inter.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
+
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
@@ -9,6 +17,8 @@
   --color-primary-foreground: hsl(var(--primary-foreground));
 
   --color-card: hsl(var(--card));
+
+  --font-sans: 'Inter', system-ui, sans-serif;
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
@@ -103,7 +113,7 @@
   }
 
   body {
-    @apply bg-background text-foreground transition-colors duration-300;
+    @apply bg-background text-foreground transition-colors duration-300 font-sans;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
